@@ -9,10 +9,10 @@
   justify-content: center;
   gap: 40px;
   width: 1247px;
-  height: 482px;
   margin: 0 auto;
   padding: 0;
   list-style: none;
   /* overflow: hidden; */
   white-space: nowrap;
+  flex-wrap: wrap;
 }

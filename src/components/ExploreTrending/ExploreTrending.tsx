@@ -31,5 +31,6 @@ export const ExploreTrending = () => {
         ))}
       </ul>
     </div>
+
   )
 }
