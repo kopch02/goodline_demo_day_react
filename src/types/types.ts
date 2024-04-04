@@ -5,3 +5,11 @@ export interface ITrendingItem {
   bid: string
   time: string
 }
+
+export interface ISellers {
+  id: number
+  image: string
+  name: string
+  username: string
+}
+

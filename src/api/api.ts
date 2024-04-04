@@ -10,3 +10,8 @@ export const getItem = async () => {
   const { data } = await instance.get('/cards')
   return data
 }
+
+export const getSellers = async () => {
+  const { data } = await instance.get('/sellers')
+  return data
+}

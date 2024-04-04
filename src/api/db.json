@@ -28,5 +28,44 @@
       "bid": "1.25",
       "time": "07h 09m 12s"
     }
+  ],
+
+  "sellers": [
+    {
+      "id": 1,
+      "image": "img/recently1.jpg",
+      "name": "Alex Ca.",
+      "username": "@Alexy"
+    },
+    {
+      "id": 2,
+      "image": "img/sellers2.jpg",
+      "name": "Jailyn Sa.",
+      "username": "@JuliyaS"
+    },
+    {
+      "id": 3,
+      "image": "img/sellers3.jpg",
+      "name": "Jailyn Sa.",
+      "username": "@JuliyaS"
+    },
+    {
+      "id": 4,
+      "image": "img/sellers4.jpg",
+      "name": "Trevor Pu.",
+      "username": "@TrevorP"
+    },
+    {
+      "id": 5,
+      "image": "img/sellers5.jpg",
+      "name": "Trevor Pu.",
+      "username": "@TrevorP"
+    },
+    {
+      "id": 6,
+      "image": "img/sellers6.jpg",
+      "name": "Trevor Pu.",
+      "username": "@TrevorP"
+    }
   ]
 }
