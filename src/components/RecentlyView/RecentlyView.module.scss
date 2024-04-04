@@ -109,6 +109,23 @@
   justify-content: space-between;
 }
 
+.recently__item_price{
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 140%;
+  color: #141416;
+  text-align: right;
+}
+
+.recently__item_procent {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 150%;
+  margin-left: auto;
+}
+
 .efirium-logo {
   width: 19px;
   height: 18px;
