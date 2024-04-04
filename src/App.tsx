@@ -1,5 +1,6 @@
 import { ExploreTrending } from './components/ExploreTrending/ExploreTrending'
 import { Banner } from './components/Banner/Banner'
+import { Footer } from './components/Footer/Footer'
 
 const App = () => {
   return (
@@ -9,6 +10,9 @@ const App = () => {
       </section>
       <section>
         <Banner/>
+      </section>
+      <section>
+        <Footer/>
       </section>
     </>
   )

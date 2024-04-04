@@ -21,7 +21,7 @@ export const ExploreTrending = () => {
   }, [])
 
   return (
-    <div className="explore-trending">
+    <div className={s.explore_trending}>
       <ul className={s.trending__list}>
         {trendingData.map((item) => (
           <TrendingItem
