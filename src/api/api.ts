@@ -15,3 +15,8 @@ export const getSellers = async () => {
   const { data } = await instance.get('/sellers')
   return data
 }
+
+export const getRecently = async () => {
+  const { data } = await instance.get('/recently')
+  return data
+}

@@ -13,3 +13,11 @@ export interface ISellers {
   username: string
 }
 
+export interface IRecentlyItem {
+  id: number
+  image: string
+  name: string
+  username: string
+  price: string
+  procent : string
+}

@@ -67,5 +67,25 @@
       "name": "Trevor Pu.",
       "username": "@TrevorP"
     }
+  ],
+
+  "recently":[
+    {
+      "id": 1,
+      "image": "img/recently1.jpg",
+      "name": "Alex Ca.",
+      "username": "Alexy",
+      "price": "8,456",
+      "procent": "+23,00%"
+    },
+    {
+      "id": 2,
+      "image": "img/recently2.jpg",
+      "name": "Juliya S.",
+      "username": "JuliyaS",
+      "price": "5,327",
+      "procent": "-32,01%"
+    }
   ]
+
 }
