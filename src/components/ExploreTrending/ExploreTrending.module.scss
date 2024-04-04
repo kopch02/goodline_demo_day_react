@@ -1,0 +1,18 @@
+.explore-trending {
+  margin-top: 100px;
+}
+
+.trending__list {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 40px;
+  width: 1247px;
+  height: 482px;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+  /* overflow: hidden; */
+  white-space: nowrap;
+}

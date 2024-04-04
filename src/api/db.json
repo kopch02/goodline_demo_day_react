@@ -1,0 +1,32 @@
+{
+  "cards": [
+    {
+      "id": 1,
+      "image": "img/trending1.jpg",
+      "name": "Sun-Glass",
+      "bid": "1.75",
+      "time": "07h 09m 12s"
+    },
+    {
+      "id": 2,
+      "image": "img/trending2.jpg",
+      "name": "Sun-Glass",
+      "bid": "1.75",
+      "time": "07h 09m 12s"
+    },
+    {
+      "id": 3,
+      "image": "img/trending3.jpg",
+      "name": "Sun-Glass",
+      "bid": "1.75",
+      "time": "07h 09m 12s"
+    },
+    {
+      "id": 4,
+      "image": "img/trending4.jpg",
+      "name": "NuEvey",
+      "bid": "1.25",
+      "time": "07h 09m 12s"
+    }
+  ]
+}
