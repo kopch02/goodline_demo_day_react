@@ -4,9 +4,7 @@ import { IRecentlyItem } from '../../types/types'
 import { getRecently } from '../../api/api'
 import s from './RecentlyView.module.scss'
 
-
 export const RecentlyView = () => {
-
   const [recentData, setTrendingData] = useState<IRecentlyItem[]>([])
 
   const fetchItems = async () => {
@@ -21,17 +19,27 @@ export const RecentlyView = () => {
     fetchItems()
   }, [])
 
-  return(
+  return (
     <div className={s.recently__view}>
       <div className={s.recently__top}>
         <h3>Recent Viewed</h3>
-        <img src="img/dots-mini.svg" alt="dots"/>
+        <img
+          src="img/dots-mini.svg"
+          alt="dots"
+        />
       </div>
       <ul className={s.recently__list}>
         {recentData.map((item, index) => (
-          <li className={s.recently__list_item} key={index}>
+          <li
+            className={s.recently__list_item}
+            key={index}
+          >
             <div className={s.recently__icon}>
-              <img src={item.image} alt={`recently${index + 1}`} className={s.recently__item_img}/>
+              <img
+                src={item.image}
+                alt={`recently${index + 1}`}
+                className={s.recently__item_img}
+              />
               <div className={s.recently__item_number}>
                 <span>{index + 1}</span>
               </div>
@@ -42,14 +50,18 @@ export const RecentlyView = () => {
             </div>
             <div className={s.recently__item_price_container}>
               <div className={s.recently__item_price}>
-                <img src="img/evirium.svg" alt="evirium-logo" className={s.efirium_logo}/>
+                <img
+                  src="img/evirium.svg"
+                  alt="evirium-logo"
+                  className={s.efirium_logo}
+                />
                 <span>{item.price}</span>
               </div>
-              <span className={s.recently__item_procent} >{item.procent}</span>
+              <span className={s.recently__item_procent}>{item.procent}</span>
             </div>
           </li>
         ))}
       </ul>
     </div>
-);
+  )
 }

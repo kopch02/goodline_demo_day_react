@@ -12,10 +12,17 @@ export const Banner = () => {
         </div>
       </div>
       <div className={s.banner__img}>
-        <img src="img/banner1.jpg" alt="banner1" className={s.banner__banner1}/>
-        <img src="img/banner2.jpg" alt="banner2-blure" className={s.banner__banner2_blure}/>
+        <img
+          src="img/banner1.jpg"
+          alt="banner1"
+          className={s.banner__banner1}
+        />
+        <img
+          src="img/banner2.jpg"
+          alt="banner2-blure"
+          className={s.banner__banner2_blure}
+        />
       </div>
     </div>
-  );
+  )
 }
-
