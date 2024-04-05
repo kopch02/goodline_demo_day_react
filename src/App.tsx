@@ -6,10 +6,14 @@ import UnleashLeftContent from './components/UnleashLeftContent/UnleashLeftConte
 import { ExploreAllArrow } from './components/ExploreAllArrow/ExploreAllArrow'
 import { TopColection } from './components/TopColection/TopColection'
 import { Weekly } from './components/Weekly/Weekly'
+import { Hero } from './components/Hero/Hero'
 
 const App = () => {
   return (
     <>
+    <section className="container">
+      <Hero/>
+    </section>
       <section>
         <Weekly/>
       </section>
