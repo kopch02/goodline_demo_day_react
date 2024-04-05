@@ -67,3 +67,9 @@
     margin-right: 9px;
   }
 }
+
+@media (max-width: 768px) {
+  .trending__list {
+    width: 100%;
+  }
+}

@@ -78,3 +78,14 @@
     margin: auto 0;
   }
 }
+
+@media (max-width: 768px) {
+  .unleash_notification {
+    border-radius: 6px;
+    padding: 5px;
+    width: 155px;
+    height: 40px;
+    left: 0;
+    top: 0;
+  }
+}

@@ -96,3 +96,15 @@
   letter-spacing: 0.01em;
   color: #010101;
 }
+
+@media (max-width: 768px) {
+  .collection_table {
+    &_row {
+      width: 100%;
+
+      & td:nth-last-child(-n + 4) {
+        display: none;
+      }
+    }
+  }
+}

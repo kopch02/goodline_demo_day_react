@@ -93,3 +93,22 @@
   }
 }
 
+@media (max-width: 768px) {
+  .header {
+    width: 100%;
+  }
+
+  .nav__list {
+    display: none;
+  }
+
+  .nav_input {
+    display: none;
+  }
+
+  .nav_btn {
+    display: none;
+  }
+}
+
+

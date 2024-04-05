@@ -33,5 +33,17 @@ body {
   flex-direction: row;
 }
 
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
 
+  .unleash_content {
+    flex-direction: column;
+  }
+
+  .unleash_line {
+    width: 100%;
+  }
+}
 

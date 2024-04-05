@@ -43,5 +43,18 @@
       padding-left: 12px;
     }
   }
+}
 
+@media (max-width: 768px) {
+  .unleash__left_content {
+    & span {
+      font-size: 30px;
+      line-height: 124%;
+      text-align: center;
+    }
+  }
+
+  .unleash__list {
+    display: none;
+  }
 }

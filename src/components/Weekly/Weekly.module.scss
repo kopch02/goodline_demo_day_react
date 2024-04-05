@@ -39,3 +39,14 @@
   top: 140px;
   left: 50%;
 }
+
+@media (max-width: 768px) {
+  .recently {
+    display: none;
+  }
+
+  .trending {
+    width: 100%;
+    overflow-x: auto;
+  }
+}
