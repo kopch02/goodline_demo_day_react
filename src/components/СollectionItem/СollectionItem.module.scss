@@ -1,0 +1,98 @@
+.collection_table {
+  &_row {
+    width: 1247px;
+    transition: 0.5s;
+    border-bottom: 1.69px solid #ebe9e9;
+
+    &:hover {
+      background-color: #c5c5c5;
+    }
+  }
+
+  & tr {
+    text-align: center;
+    height: 110px;
+  }
+
+  & td {
+    margin-top: 41px;
+  }
+
+  & td:first-child {
+    margin-top: 0;
+  }
+}
+
+
+.collection_logo {
+  display: flex;
+  flex-direction: row;
+  gap: 23px;
+  width: 417px;
+  height: 151px;
+
+  &_img {
+    border: 3.5px solid #fff;
+    border-radius: 1751px;
+    width: 84px;
+    height: 84px;
+    background: #fff;
+    margin: auto 0;
+  }
+}
+
+
+.collection_item_name {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  margin: auto 0;
+  text-align: left;
+}
+
+.collection_name_span1 {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 140%;
+  color: #141416;
+}
+
+.collection_name_span2 {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 150%;
+  color: #64748b;
+}
+
+.collection_efirium_logo {
+  width: 32px;
+  height: 33px;
+
+  &_span {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 140%;
+    color: #141416;
+  }
+}
+
+
+.collection_item_list_item_procent {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 130%;
+  letter-spacing: 0.01em;
+}
+
+.collection_item_list_item {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 23px;
+  line-height: 130%;
+  letter-spacing: 0.01em;
+  color: #010101;
+}

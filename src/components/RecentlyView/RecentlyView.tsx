@@ -57,7 +57,9 @@ export const RecentlyView = () => {
                 />
                 <span>{item.price}</span>
               </div>
-              <span className={s.recently__item_procent}>{item.procent}</span>
+              <span className={s.recently__item_procent} style={{ color: item.procent > 0 ? 'green' : 'red' }}>
+              {item.procent > 0 ? `+${item.procent}%` : `${item.procent}%`}
+                </span>
             </div>
           </li>
         ))}

@@ -19,5 +19,17 @@ export interface IRecentlyItem {
   name: string
   username: string
   price: string
-  procent : string
+  procent : number
+}
+
+export interface ICollections {
+  id: number
+  image: string
+  name: string
+  username: string
+  volume: string
+  procent: number
+  price: string
+  owners: string
+  items: string
 }

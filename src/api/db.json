@@ -104,7 +104,7 @@
       "name": "Alex Ca.",
       "username": "Alexy",
       "price": "8,456",
-      "procent": "+23,00%"
+      "procent": 23.00
     },
     {
       "id": 2,
@@ -112,7 +112,54 @@
       "name": "Juliya S.",
       "username": "JuliyaS",
       "price": "5,327",
-      "procent": "-32,01%"
+      "procent": -32.00
+    }
+  ],
+
+  "collections":[
+    {
+      "id": 1,
+      "image": "img/recently1.jpg",
+      "name": "Alex Ca.",
+      "username": "By Alexy",
+      "volume": "8,456",
+      "procent": 27.78,
+      "price": "3,5",
+      "owners": "2.2K",
+      "items": "500"
+    },
+    {
+      "id": 2,
+      "image": "img/recently2.jpg",
+      "name": "Alex Ca.",
+      "username": "By Alexy",
+      "volume": "4,780",
+      "procent": 27.78,
+      "price": "7,9",
+      "owners": "3.4K",
+      "items": "900"
+    },
+    {
+      "id": 3,
+      "image": "img/recently1.jpg",
+      "name": "Alex Ca.",
+      "username": "By Alexy",
+      "volume": "8,456",
+      "procent": 27.78,
+      "price": "3,5",
+      "owners": "2.2K",
+      "items": "500"
+    },
+    {
+      "id": 4,
+      "image": "img/recently2.jpg",
+      "name": "Alex Ca.",
+      "username": "By Alexy",
+      "volume": "4,780",
+      "procent": 27.78,
+      "price": "7,9",
+      "owners": "3.4K",
+      "items": "900"
     }
   ]
 

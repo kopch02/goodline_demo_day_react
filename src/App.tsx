@@ -4,10 +4,14 @@ import { Footer } from './components/Footer/Footer'
 import { UnleashRightContent } from './components/UnleashRightContent/UnleashRightContent'
 import UnleashLeftContent from './components/UnleashLeftContent/UnleashLeftContent'
 import { ExploreAllArrow } from './components/ExploreAllArrow/ExploreAllArrow'
+import { TopColection } from './components/TopColection/TopColection'
 
 const App = () => {
   return (
     <>
+      <section className='container'>
+        <TopColection/>
+      </section>
       <section className="container">
         <ExploreTrending />
         <ExploreAllArrow/>

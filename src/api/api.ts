@@ -20,3 +20,8 @@ export const getRecently = async () => {
   const { data } = await instance.get('/recently')
   return data
 }
+
+export const getCollection = async () => {
+  const { data } = await instance.get('/collections')
+  return data
+}
