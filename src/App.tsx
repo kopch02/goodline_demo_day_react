@@ -5,16 +5,20 @@ import { UnleashRightContent } from './components/UnleashRightContent/UnleashRig
 import UnleashLeftContent from './components/UnleashLeftContent/UnleashLeftContent'
 import { ExploreAllArrow } from './components/ExploreAllArrow/ExploreAllArrow'
 import { TopColection } from './components/TopColection/TopColection'
+import { Weekly } from './components/Weekly/Weekly'
 
 const App = () => {
   return (
     <>
-      <section className='container'>
-        <TopColection/>
+      <section>
+        <Weekly/>
+      </section>
+      <section className="container">
+        <TopColection />
       </section>
       <section className="container">
         <ExploreTrending />
-        <ExploreAllArrow/>
+        <ExploreAllArrow />
       </section>
       <section className="container">
         <div className="unleash_line"></div>

@@ -6,7 +6,7 @@ import { BestSellers } from '../BestSellers/BestSellers'
 export const UnleashRightContent = () => {
   return (
     <div className={s.unleash__right_content}>
-      <RecentlyView />
+      <RecentlyView data={0} />
       <BestSellers />
       <Notification />
     </div>

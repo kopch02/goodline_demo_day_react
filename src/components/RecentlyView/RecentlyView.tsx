@@ -4,7 +4,11 @@ import { IRecentlyItem } from '../../types/types'
 import { getRecently } from '../../api/api'
 import s from './RecentlyView.module.scss'
 
-export const RecentlyView = () => {
+interface IProps {
+  data: number
+}
+
+export const RecentlyView = ({data}:IProps) => {
   const [recentData, setTrendingData] = useState<IRecentlyItem[]>([])
 
   const fetchItems = async () => {
@@ -20,7 +24,7 @@ export const RecentlyView = () => {
   }, [])
 
   return (
-    <div className={s.recently__view}>
+    <div className={s.recently__view} style={{transform:`translateX(${data}%)`}}>
       <div className={s.recently__top}>
         <h3>Recent Viewed</h3>
         <img
