@@ -7,10 +7,12 @@ import { ExploreAllArrow } from './components/ExploreAllArrow/ExploreAllArrow'
 import { TopColection } from './components/TopColection/TopColection'
 import { Weekly } from './components/Weekly/Weekly'
 import { Hero } from './components/Hero/Hero'
+import { Header } from './components/Header/Header'
 
 const App = () => {
   return (
     <>
+    <Header/>
     <section className="container">
       <Hero/>
     </section>
@@ -34,9 +36,7 @@ const App = () => {
       <section className="container">
         <Banner />
       </section>
-      <section>
-        <Footer />
-      </section>
+      <Footer />
     </>
   )
 }
