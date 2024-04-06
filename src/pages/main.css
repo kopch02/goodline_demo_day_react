@@ -1,0 +1,33 @@
+.container {
+  width: 1250px;
+  margin: 0 auto;
+  margin-top: 120px;
+}
+
+.unleash_line {
+  border: 0.71px solid #cbcbcb;
+  width: 1248px;
+  height: 0px;
+  margin: 0 auto;
+}
+
+.unleash_content {
+  display: flex;
+  flex-direction: row;
+}
+
+@media (max-width: 768px) {
+  .container {
+    margin-top: 40px;
+    padding: 0 10px;
+    width: calc(100% - 20px);
+  }
+
+  .unleash_content {
+    flex-direction: column;
+  }
+
+  .unleash_line {
+    display: none;
+  }
+}

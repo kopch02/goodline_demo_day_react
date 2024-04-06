@@ -8,6 +8,7 @@ export const Header = () => {
           src="img/logo.jpg"
           alt="logo"
         />
+        <span>DiveSea</span>
       </div>
       <nav className={s.nav}>
         <ul className={s.nav__list}>

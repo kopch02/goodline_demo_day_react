@@ -8,9 +8,23 @@
   margin-top: 15px;
 }
 
+.logo {
+  display: flex;
+  align-items: center;
+}
+
 .logo img {
   width: 53px;
   height: 53px;
+}
+
+.logo span {
+  display: none;
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 130%;
+  color: #000;
 }
 
 .nav__list {
@@ -96,6 +110,10 @@
 @media (max-width: 768px) {
   .header {
     width: 100%;
+  }
+
+  .logo span {
+    display: inline;
   }
 
   .nav__list {
