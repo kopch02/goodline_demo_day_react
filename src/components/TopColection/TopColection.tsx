@@ -1,5 +1,6 @@
-import { CollectionItem } from '../СollectionItem/CollectionItem'
 import { useEffect, useState } from 'react'
+
+import { CollectionItem } from '../СollectionItem/CollectionItem'
 import { ICollections } from '../../types/types'
 import { getCollection } from '../../api/api'
 import { ExploreAllArrow } from '../ExploreAllArrow/ExploreAllArrow'
@@ -36,7 +37,10 @@ export const TopColection = () => {
         </thead>
         <tbody>
           {collectionData.map((item) => (
-            <CollectionItem item={item} />
+            <CollectionItem
+              item={item}
+              key={item.id}
+            />
           ))}
         </tbody>
       </table>

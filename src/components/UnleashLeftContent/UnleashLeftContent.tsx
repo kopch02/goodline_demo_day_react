@@ -1,7 +1,7 @@
 import s from './UnleashLeftContent.module.scss'
 import sE from './ExploreMoreBtn.module.scss'
 
-function UnleashLeftContent() {
+export const UnleashLeftContent = () => {
   const text = [
     'Best Seller All Around World',
     '$2M+ Transections Every Day',
@@ -16,8 +16,11 @@ function UnleashLeftContent() {
       <span>Just Unleash -</span>
       <span>Your Inner Collector</span>
       <ul className={s.unleash__list}>
-        {text.map((item) => (
-          <li className={s.unleash__list_item}>
+        {text.map((item, index) => (
+          <li
+            className={s.unleash__list_item}
+            key={index}
+          >
             <img
               src="img/chek.svg"
               alt="check"
@@ -36,5 +39,3 @@ function UnleashLeftContent() {
     </div>
   )
 }
-
-export default UnleashLeftContent

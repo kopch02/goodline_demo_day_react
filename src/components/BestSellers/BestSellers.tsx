@@ -30,7 +30,10 @@ export const BestSellers = () => {
       </div>
       <div className={s.best_sellers__list}>
         {sellersData.map((item, index) => (
-          <li className={s.best_sellers__list_item}>
+          <li
+            className={s.best_sellers__list_item}
+            key={item.id}
+          >
             <div className={s.recently__icon}>
               <img
                 src={item.image}
