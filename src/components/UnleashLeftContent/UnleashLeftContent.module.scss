@@ -46,11 +46,19 @@
 }
 
 @media (max-width: 768px) {
+
   .unleash__left_content {
+    margin-left: 0;
+    margin-top: 50px;
+    width: 100%;
+    height: auto;
+
     & span {
       font-size: 30px;
       line-height: 124%;
       text-align: center;
+      width: 100%;
+
     }
   }
 

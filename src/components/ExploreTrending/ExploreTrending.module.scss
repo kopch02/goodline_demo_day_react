@@ -69,7 +69,43 @@
 }
 
 @media (max-width: 768px) {
+  .explore__header {
+    font-size: 30px;
+    line-height: 125%;
+    text-align: center;
+    width: 200px;
+  }
+
+  .explore_filters_list {
+    width: 277px;
+    gap: 10px;
+    margin-top: 30px;
+    height: auto;
+  }
+
+  .explore_filter_item:nth-child(1) {
+    display: none;
+  }
+
+  .explore_filter_item {
+    padding: 10px;
+    height: 36px;
+
+    & span {
+      font-size: 9px;
+    }
+
+    & img {
+      width: 17px;
+      height: 17px;
+    }
+  }
+
   .trending__list {
     width: 100%;
+  }
+
+  .explore_trending {
+    margin-top: 20px;
   }
 }

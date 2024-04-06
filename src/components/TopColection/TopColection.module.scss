@@ -29,12 +29,25 @@
 }
 
 @media (max-width: 768px) {
+  .top_collection {
+
+    margin-top: 20px;
+
+    &__header {
+      font-size: 30px;
+      line-height: 149%;
+      width: 210px;
+    }
+  }
+
   .collection_table {
     width: 100%;
   }
 
   .filter {
-    & th:nth-last-child(-n +4) {
+    width: 316px;
+    height: 18px;
+    & th:nth-last-child(-n + 4) {
       display: none;
     }
   }

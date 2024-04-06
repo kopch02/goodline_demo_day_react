@@ -23,7 +23,6 @@
   }
 }
 
-
 .collection_logo {
   display: flex;
   flex-direction: row;
@@ -40,7 +39,6 @@
     margin: auto 0;
   }
 }
-
 
 .collection_item_name {
   display: flex;
@@ -79,7 +77,6 @@
   }
 }
 
-
 .collection_item_list_item_procent {
   font-family: var(--font-family);
   font-weight: 500;
@@ -105,6 +102,43 @@
       & td:nth-last-child(-n + 4) {
         display: none;
       }
+
+      & td:nth-child(2) {
+        width: 90px;
+        height: 71px;
+      }
+    }
+  }
+
+  .collection_logo {
+    width: 130px;
+    height: 71px;
+
+    &_img {
+      border: 1.93px solid #fff;
+      border-radius: 963px;
+      width: 46px;
+      height: 46px;
+    }
+  }
+
+  .collection_item_name {
+    width: 63px;
+    height: 48px;
+  }
+  .collection_name_span1 {
+    font-size: 15px;
+  }
+
+  .collection_name_span2 {
+    font-size: 12px;
+  }
+
+  .collection_efirium_logo {
+    width: 19px;
+    height: 18px;
+    &_span {
+      font-size: 15px;
     }
   }
 }

@@ -85,7 +85,49 @@
     padding: 5px;
     width: 155px;
     height: 40px;
-    left: 0;
+    left: 150px;
     top: 0;
+
+    &__info {
+      width: 108px;
+      height: 30px;
+
+      &_logo {
+        width: 30px;
+        height: 21px;
+      }
+
+      &_name {
+        font-size: 6px;
+      }
+
+      &_text span {
+        font-size: 5px;
+      }
+    }
+
+    &__avatar {
+      width: 21px;
+      height: 21px;
+      margin-left: 3px;
+
+      &_img {
+        border-radius: 16px;
+        width: 19px;
+        height: 19px;
+      }
+
+      &_verified {
+        width: 8px;
+        height: 8px;
+        left: 13px;
+      }
+    }
+
+    &__logo {
+      border-radius: 5px;
+      width: 29px;
+      height: 29px;
+    }
   }
 }

@@ -41,11 +41,22 @@
 }
 
 @media (max-width: 768px) {
+  .weekly {
+    height: 589px;
+    & h2 {
+      margin: 50px auto;
+      font-size: 30px;
+      line-height: 90%;
+    }
+  }
+
   .recently {
     display: none;
   }
 
   .trending {
+    padding-top: 30px;
+    height: 340px;
     width: 100%;
     overflow-x: auto;
   }

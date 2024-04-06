@@ -199,11 +199,64 @@
 @media (max-width: 768px) {
   .main_section {
     flex-direction: column;
+    width: 100%;
   }
+
+  .hero_text {
+    width: 100%;
+    height: 310px;
+  }
+
+  .hero_btns {
+    width: 243px;
+    height: 47px;
+    margin: 0 auto;
+    margin-top: 30px;
+
+    & .more {
+      width: 128px;
+      height: 47px;
+      border-radius: 9px;
+
+      & a {
+        font-size: 11px;
+      }
+    }
+
+    & .create {
+      width: 99px;
+      height: 47px;
+      border: 1.5px solid #000;
+      border-radius: 9px;
+      font-size: 11px;
+    }
+  }
+
+  .features {
+    display: none;
+  }
+
+  .hero_content {
+    width: 100%;
+    height: 159px;
+
+    & h1 {
+      font-size: 47px;
+      text-align: center;
+    }
+
+    & p {
+      width: 100%;
+      font-size: 11px;
+      text-align: center;
+    }
+  }
+
   .hero_header {
-    width: 380px;
+    width: 100%;
     height: 553px;
     position: relative;
+
 
     &__header1 {
       border-radius: 13px;
@@ -220,12 +273,14 @@
     &__header2 {
       width: 170px;
       height: 182px;
-      left: 131px;
+      left: 231px;
+      top: 110px;
 
       &_blure {
         width: 170px;
         height: 182px;
-        left: 129px;
+        left: 231px;
+        top: 110px;
       }
     }
   }
@@ -233,15 +288,18 @@
   .hero_header__arrow {
     position: absolute;
     top: 48px;
-    left: 113px;
+    left: 233px;
     transform: rotate(-3deg);
+    width: 61px;
+    height: 63px;
   }
 
   .hero_header__dots {
     position: absolute;
     top: -12px;
-    left: 207px;
+    left: 337px;
     z-index: -1;
+    width: 47px;
+    height: 214px;
   }
-
 }

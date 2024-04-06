@@ -5,3 +5,10 @@
   margin-left: 102px;
   position: relative;
 }
+
+@media (max-width: 768px) {
+  .unleash__right_content {
+    margin-left: 0;
+    width: 100%;
+  }
+}
