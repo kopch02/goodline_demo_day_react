@@ -4,10 +4,12 @@ export const Header = () => {
   return (
     <header className={s.header}>
       <div className={s.logo}>
+        <a href="/">
         <img
           src="img/logo.jpg"
           alt="logo"
         />
+        </a>
         <span>DiveSea</span>
       </div>
       <nav className={s.nav}>
@@ -30,7 +32,7 @@ export const Header = () => {
           </li>
           <li className={s.nav__list_item}>
             <a
-              href="#"
+              href="/sell"
               className={s.nav__list_link}
             >
               Sell

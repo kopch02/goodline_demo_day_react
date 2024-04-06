@@ -7,6 +7,8 @@ import { TopColection } from '../components/TopColection/TopColection'
 import { Weekly } from '../components/Weekly/Weekly'
 import { Hero } from '../components/Hero/Hero'
 
+import './main.css'
+
 export const Main = () => {
   return (
     <>
