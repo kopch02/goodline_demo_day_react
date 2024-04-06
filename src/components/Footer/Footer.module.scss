@@ -122,5 +122,8 @@
   .unit {
     flex-direction: column;
     width: 100%;
+    gap: 10px;
+    height: auto;
+    padding: 0 10px;
   }
 }

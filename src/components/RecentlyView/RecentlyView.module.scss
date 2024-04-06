@@ -125,7 +125,71 @@
   margin-left: auto;
 }
 
-.efirium-logo {
+.efirium_logo {
   width: 19px;
   height: 18px;
+}
+
+@media (max-width: 768px) {
+  .recently__view {
+    width: 153px;
+    height: 103px;
+    top: 250px;
+    left: 30px;
+  }
+
+  .recently__top {
+    gap: 10px;
+
+    & h3 {
+      font-size: 8px;
+    }
+  }
+
+  .recently__list {
+    gap: 7px;
+    &_item {
+      gap: 0;
+    }
+  }
+
+  .recently__item_img {
+    border: 0.81px solid #fff;
+    border-radius: 405px;
+    width: 19px;
+    height: 19px;
+  }
+
+  .recently__item_number {
+    width: 8px;
+    height: 8px;
+    font-size: 4px;
+    left: 12px;
+    top: 12px;
+  }
+
+  .recently__name_span1 {
+    font-size: 6px;
+  }
+
+  .recently__name_span2 {
+    font-size: 5px;
+  }
+
+  .recently__item_price_container {
+    height: 21px;
+  }
+
+  .recently__item_price {
+    font-size: 6px;
+  }
+
+  .efirium_logo {
+    width: 9px;
+    height: 8px;
+  }
+
+  .recently__item_procent {
+    font-size: 5px;
+  }
 }

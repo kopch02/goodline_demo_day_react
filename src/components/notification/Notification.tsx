@@ -8,6 +8,7 @@ export const Notification = () => {
           <img
             src="./img/point.svg"
             alt="point"
+            className={s.unleash_notification__info_logo_img}
           />
           <div className={s.unleash_notification__avatar}>
             <img

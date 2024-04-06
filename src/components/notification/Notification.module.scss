@@ -85,8 +85,8 @@
     padding: 5px;
     width: 155px;
     height: 40px;
-    left: 150px;
-    top: 0;
+    left: 170px;
+    top: 35px;
 
     &__info {
       width: 108px;
@@ -95,10 +95,19 @@
       &_logo {
         width: 30px;
         height: 21px;
+
+        &_img {
+          width: 5px;
+          height: 5px;
+        }
       }
 
       &_name {
         font-size: 6px;
+      }
+
+      &_text {
+        height: auto;
       }
 
       &_text span {

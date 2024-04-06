@@ -117,7 +117,9 @@
     flex-direction: column;
 
     &__left_content {
+      margin: 0;
       & h2 {
+        margin-top: 30px;
         font-size: 22px;
         text-align: center;
       }
@@ -131,35 +133,40 @@
     &__action {
       width: 196px;
       height: 33px;
+      margin: 0 auto;
+      margin-top: 20px;
 
       & .more {
+        padding: 4px;
         font-family: var(--font3);
         font-weight: 600;
         font-size: 10px;
         line-height: 130%;
         color: #141416;
         border-radius: 6px;
-        padding: 9px 12px;
         width: 90px;
         height: 33px;
       }
 
       & .sell {
+        margin-left: 10px;
         font-family: var(--font3);
         font-weight: 600;
         font-size: 10px;
         line-height: 130%;
         border: 1.13px solid #fff;
         border-radius: 6px;
-        padding: 9px 12px;
+        padding: 4px;
         width: 90px;
         height: 33px;
       }
     }
 
     &__img {
-      width: 266px;
-      height: 137px;
+      width: 252px;
+      height: 129px;
+      margin: 0 auto;
+      margin-top: 20px;
     }
 
     &__banner1 {
@@ -176,8 +183,8 @@
       width: 252px;
       height: 129px;
       position: relative;
-      top: 0;
-      left: 0;
+      top: -110px;
+      left: -10px;
     }
   }
 }
