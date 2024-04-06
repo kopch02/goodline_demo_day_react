@@ -19,7 +19,7 @@ export interface IRecentlyItem {
   name: string
   username: string
   price: string
-  procent : number
+  procent: number
 }
 
 export interface ICollections {

@@ -12,12 +12,12 @@ import { Header } from './components/Header/Header'
 const App = () => {
   return (
     <>
-    <Header/>
-    <section className="container">
-      <Hero/>
-    </section>
+      <Header />
+      <section className="container">
+        <Hero />
+      </section>
       <section>
-        <Weekly/>
+        <Weekly />
       </section>
       <section className="container">
         <TopColection />

@@ -97,14 +97,14 @@
     }
   ],
 
-  "recently":[
+  "recently": [
     {
       "id": 1,
       "image": "img/recently1.jpg",
       "name": "Alex Ca.",
       "username": "Alexy",
       "price": "8,456",
-      "procent": 23.00
+      "procent": 23.0
     },
     {
       "id": 2,
@@ -112,11 +112,11 @@
       "name": "Juliya S.",
       "username": "JuliyaS",
       "price": "5,327",
-      "procent": -32.00
+      "procent": -32.0
     }
   ],
 
-  "collections":[
+  "collections": [
     {
       "id": 1,
       "image": "img/recently1.jpg",
@@ -162,5 +162,4 @@
       "items": "900"
     }
   ]
-
 }

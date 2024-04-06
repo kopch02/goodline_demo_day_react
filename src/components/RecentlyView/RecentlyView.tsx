@@ -8,7 +8,7 @@ interface IProps {
   data: number
 }
 
-export const RecentlyView = ({data}:IProps) => {
+export const RecentlyView = ({ data }: IProps) => {
   const [recentData, setTrendingData] = useState<IRecentlyItem[]>([])
 
   const fetchItems = async () => {
@@ -24,7 +24,10 @@ export const RecentlyView = ({data}:IProps) => {
   }, [])
 
   return (
-    <div className={s.recently__view} style={{transform:`translateX(${data}%)`}}>
+    <div
+      className={s.recently__view}
+      style={{ transform: `translateX(${data}%)` }}
+    >
       <div className={s.recently__top}>
         <h3>Recent Viewed</h3>
         <img
@@ -61,9 +64,12 @@ export const RecentlyView = ({data}:IProps) => {
                 />
                 <span>{item.price}</span>
               </div>
-              <span className={s.recently__item_procent} style={{ color: item.procent > 0 ? 'green' : 'red' }}>
-              {item.procent > 0 ? `+${item.procent}%` : `${item.procent}%`}
-                </span>
+              <span
+                className={s.recently__item_procent}
+                style={{ color: item.procent > 0 ? 'green' : 'red' }}
+              >
+                {item.procent > 0 ? `+${item.procent}%` : `${item.procent}%`}
+              </span>
             </div>
           </li>
         ))}
