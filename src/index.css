@@ -17,3 +17,17 @@
 body {
   margin: 0;
 }
+
+.container {
+  width: 1250px;
+  margin: 0 auto;
+  margin-top: 120px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    margin-top: 40px;
+    padding: 0 10px;
+    width: calc(100% - 20px);
+  }
+}

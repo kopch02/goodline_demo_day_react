@@ -1,8 +1,4 @@
-.container {
-  width: 1250px;
-  margin: 0 auto;
-  margin-top: 120px;
-}
+
 
 .unleash_line {
   border: 0.71px solid #cbcbcb;
@@ -17,11 +13,7 @@
 }
 
 @media (max-width: 768px) {
-  .container {
-    margin-top: 40px;
-    padding: 0 10px;
-    width: calc(100% - 20px);
-  }
+ 
 
   .unleash_content {
     flex-direction: column;
