@@ -12,8 +12,11 @@ export const Header = () => {
         </a>
         <span>DiveSea</span>
       </div>
-      <nav className={s.nav}>
-        <ul className={s.nav__list}>
+      <nav className={s.nav} >
+        <button className={s.nav_mobile_btn} id='nav_btn'>
+          <img src="img/menu.svg" alt="menu" />
+        </button>
+        <ul className={`${s.nav__list} `} id='nav__list'>
           <li className={s.nav__list_item}>
             <a
               href="#"
