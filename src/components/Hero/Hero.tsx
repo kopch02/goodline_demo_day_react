@@ -13,9 +13,9 @@ export const Hero = () => {
           </p>
         </div>
         <div className={s.hero_btns}>
-          <button className={s.more}>
-            <a href="#explore-more">Explore More</a>
-          </button>
+          <a href="#explore-more">
+            <button className={s.more}>Explore More</button>
+          </a>
           <button className={s.create}>create NFT</button>
         </div>
         <div className={s.features}>

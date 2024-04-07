@@ -22,7 +22,12 @@ export const ExploreTrending = () => {
 
   return (
     <div>
-      <h2 className={s.explore__header}>Explore Marketplace</h2>
+      <h2
+        className={s.explore__header}
+        id="explore-more"
+      >
+        Explore Marketplace
+      </h2>
       <ul className={s.explore_filters_list}>
         <button className={s.explore_filter_item}>
           <span>All</span>
