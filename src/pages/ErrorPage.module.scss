@@ -23,4 +23,10 @@
     background: #676767;
     cursor: pointer;
   }
+
 }
+  @media (max-width: 768px) {
+    .error_page img {
+      width: 120%;
+    }
+  }
