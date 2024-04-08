@@ -33,7 +33,7 @@ export const Header = () => {
         >
           <li className={s.nav__list_item}>
             <a
-              href="#"
+              href="/discover"
               className={s.nav__list_link}
             >
               Discover
