@@ -69,15 +69,15 @@
   transition: 0.4s;
 
   &:hover {
+    border: 1.2px solid #141416;
     cursor: pointer;
     background-color: #fff;
     color: #000;
   }
 
   &:active {
-    margin-top: 110px;
-    height: 46px;
-    background-color: #9596a6;
+    transition: 0.2s;
+    transform: scaleY(.80);
   }
 }
 

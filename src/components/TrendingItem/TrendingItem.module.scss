@@ -11,8 +11,7 @@
   flex-shrink: 0;
 
   &:hover {
-    height: 432px;
-    margin-top: -15px;
+    transform: scaleY(1.05);
   }
 
   &__image__container {
@@ -111,6 +110,11 @@
     border: 1.5px solid #000;
     background: #fff;
     cursor: pointer;
+  }
+
+  &:active {
+    transition: 0.2s;
+    transform: scaleY(.80);
   }
 }
 

@@ -65,6 +65,11 @@
     border: 0;
     transition: 0.7s;
 
+    &:active {
+      transition: 0.2s;
+      transform: scaleY(.80);
+    }
+
     & a {
       text-decoration: none;
       color: #fff;
@@ -95,6 +100,11 @@
       color: #fff;
       background: #000;
       cursor: pointer;
+    }
+
+    &:active {
+      transition: 0.2s;
+      transform: scaleY(.80);
     }
   }
 }

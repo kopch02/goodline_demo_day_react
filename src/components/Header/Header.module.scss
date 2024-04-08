@@ -113,6 +113,11 @@
     background: #fff;
     cursor: pointer;
   }
+
+  &:active {
+    transition: 0.2s;
+    transform: scaleY(.80);
+  }
 }
 
 @media (max-width: 768px) {

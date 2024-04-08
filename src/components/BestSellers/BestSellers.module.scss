@@ -82,6 +82,10 @@
         color: #23262f;
         margin-right: 20px;
         margin-top: 14px;
+
+        &:active {
+          transform: scaleY(.90);
+        }
       }
     }
   }

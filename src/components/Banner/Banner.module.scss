@@ -59,6 +59,11 @@
         background: #fff;
         cursor: pointer;
       }
+
+      &:active {
+        transition: 0.2s;
+        transform: scaleY(.80);
+      }
     }
 
     & .more {
@@ -79,6 +84,11 @@
         color: #fff;
         background: #000;
         cursor: pointer;
+      }
+
+      &:active {
+        transition: 0.2s;
+        transform: scaleY(.80);
       }
     }
   }
