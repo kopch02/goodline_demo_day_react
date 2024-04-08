@@ -3,6 +3,7 @@ import s from './Footer.module.scss'
 export const Footer = () => {
   return (
     <div className={s.footer}>
+      <div className={s.container}>
       <div className={s.unit}>
         <div className={s.footer__logo}>
           <img
@@ -25,20 +26,21 @@ export const Footer = () => {
           <img
             src="img/inst-logo.svg"
             alt="inst-logo"
-          />
+            />
           <img
             src="img/in-logo.svg"
             alt="in-logo"
-          />
+            />
           <img
             src="img/facebook-logo.svg"
             alt="facebook-logo"
-          />
+            />
           <img
             src="img/tweeter-logo.svg"
             alt="tweeter-logo"
-          />
+            />
         </ul>
+      </div>
       </div>
     </div>
   )

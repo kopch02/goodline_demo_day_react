@@ -23,7 +23,7 @@ body {
 }
 
 .container {
-  MAX-width: 1250px;
+  max-width: 1250px;
   margin: 0 auto;
   margin-top: 120px;
 }

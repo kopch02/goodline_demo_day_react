@@ -1,12 +1,13 @@
 .banner {
   border-radius: 30px;
-  width: 1245px;
+  max-width: 1245px;
   height: 311px;
   background: #141416;
   margin: 160px auto;
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: space-around;
 
   &__left_content {
     height: 215px;
@@ -46,7 +47,7 @@
       text-transform: uppercase;
       color: #fff;
       border-radius: 12px;
-      width: 183px;
+      max-width: 183px;
       height: 67px;
       background: #000;
       border: 0;
@@ -75,7 +76,7 @@
       color: #000;
       border: 1.5px solid #000;
       border-radius: 12px;
-      width: 183px;
+      max-width: 183px;
       height: 67px;
       background: #fff;
       transition: 0.7s;
@@ -98,23 +99,21 @@
   }
 
   &__banner1 {
-    position: absolute;
     border-radius: 16px;
-    width: 369px;
+    max-width: 369px;
     height: 249px;
-    top: -125px;
-    left: 320px;
     z-index: 2;
   }
 
   &__banner2_blure {
     position: absolute;
     border-radius: 8px;
-    width: 390px;
+    opacity: .6;
+    max-width: 390px;
     height: 249px;
     filter: blur(52.874610900878906px);
-    top: -110px;
-    left: 308px;
+    left: -10px;
+    top: 10px;
     z-index: 1;
   }
 }

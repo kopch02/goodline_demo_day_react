@@ -2,6 +2,7 @@
   margin-top: 120px;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .line {
@@ -12,11 +13,13 @@
 }
 
 .hero_text {
-  width: 568px;
+  max-width: 568px;
+  margin: 0 auto;
+
 }
 
 .hero_content {
-  width: 567px;
+  max-width: 567px;
   height: 252px;
 
   & h1 {
@@ -147,7 +150,8 @@
 }
 
 .hero_header {
-  width: 780px;
+  margin: 0 auto;
+  width: 680px;
   height: 553px;
   position: relative;
 

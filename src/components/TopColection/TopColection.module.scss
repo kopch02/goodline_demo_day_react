@@ -14,7 +14,7 @@
 
 .collection_table {
   margin-top: 60px;
-  width: 1247px;
+  width: 100%;
   border-collapse: collapse;
   border-spacing: 41px;
 }
@@ -26,6 +26,9 @@
   line-height: 130%;
   letter-spacing: 0.01em;
   color: #93989a;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
 }
 
 @media (max-width: 768px) {

@@ -21,7 +21,7 @@ export const ExploreTrending = () => {
   }, [])
 
   return (
-    <div>
+    <div className={s.explore}>
       <h2
         className={s.explore__header}
         id="explore-more"

@@ -1,8 +1,11 @@
 .collection_table {
   &_row {
-    width: 1247px;
+    width: 100%;
     transition: 0.5s;
     border-bottom: 1.69px solid #ebe9e9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
     &:hover {
       background-color: #c5c5c5;

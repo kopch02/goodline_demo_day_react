@@ -1,8 +1,10 @@
+
+
 .header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 1250px;
+  max-width: 1250px;
   height: 58px;
   margin: 0 auto;
   margin-top: 15px;
@@ -95,7 +97,6 @@
 .nav_btn {
   border: 0;
   border-radius: 16px;
-  padding: 16px 24px;
   width: 202px;
   height: 57px;
   background: #141416;

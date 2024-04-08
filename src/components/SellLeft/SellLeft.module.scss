@@ -125,6 +125,7 @@ fieldset {
   background-color: #efefef;
   font-weight: 400;
   color: #9596a6;
+  max-width: 500px;
 }
 
 .price_select {
@@ -132,7 +133,7 @@ fieldset {
 }
 
 .price_input {
-  width: 380px;
+  width: calc(100% - 115px);
 }
 
 .description_input,
